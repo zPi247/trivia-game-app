@@ -16,6 +16,9 @@ Run the program. Fill in the answer in the enter box and press the Check Answer 
 ## 备注 NOTE
 
 在第81行`window.title("Movie Trivia")`双引号内的标题可以换成自己想要的标题。
+
 Line 81: `window.title("Movie Trivia") ` Change the string inside the quote to change the title of the window.
 
 ## 示范视频 EXAMPLE VIDEO
+
+![video](https://github.com/zPi247/trivia-game-app/blob/main/trivia_app_example_video.mp4)
