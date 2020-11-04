@@ -23,7 +23,7 @@ def check_ans():
         e2.config(state='disabled')
         e2.pack()
         if score == 5:
-            tk.messagebox.showinfo(title='Well Done!', message='你获得了满分！请凭此界面找社长领取奖品！')
+            tk.messagebox.showinfo(title='Well Done!', message='You got full score!')
         res = tk.messagebox.askquestion('Replay', 'Game end! Your score is '+str(score)+'.\nDo you want to replay?')
         if res == 'no':
             play = False
@@ -78,7 +78,7 @@ while play:
 
     # tkinter
     window = tk.Tk()
-    window.title("Movie Trivia by Film Club from 4 to 6")
+    window.title("Movie Trivia")
     window.geometry("1000x500")
 
     qu = tk.StringVar()
